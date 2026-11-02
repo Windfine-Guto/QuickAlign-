@@ -1,0 +1,110 @@
+{
+  "name": "快速排列（Quick Align）",
+  "id": "henke.design.quickalign",
+  "version": "1.0.1",
+  "main": "index.html",
+  "host": {
+    "app": "PS",
+    "minVersion": "22.0.0",
+    "data": {
+      "apiVersion": 2
+    }
+  },
+  "manifestVersion": 4,
+  "entrypoints": [
+    {
+      "type": "panel",
+      "id": "quickalign",
+      "label": {
+        "default": "快速排列"
+      },
+      "minimumSize": {
+        "width": 64,
+        "height": 64
+      },
+      "maximumSize": {
+        "width": 2000,
+        "height": 2000
+      },
+      "preferredDockedSize": {
+        "width": 234,
+        "height": 406
+      },
+      "preferredFloatingSize": {
+        "width": 234,
+        "height": 406
+      },
+      "icons": [
+        {
+          "width": 23,
+          "height": 23,
+          "path": "icons/light.png",
+          "scale": [
+            1,
+            2
+          ],
+          "theme": [
+            "darkest",
+            "dark",
+            "medium"
+          ]
+        },
+        {
+          "width": 23,
+          "height": 23,
+          "path": "icons/dark.png",
+          "scale": [
+            1,
+            2
+          ],
+          "theme": [
+            "lightest",
+            "light"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "command",
+      "id": "resetstate",
+      "label": {
+        "default": "重置插件设置"
+      }
+    }
+  ],
+  "icons": [
+    {
+      "width": 48,
+      "height": 48,
+      "path": "icons/lightPlugin.png",
+      "scale": [
+        1,
+        2
+      ],
+      "theme": [
+        "darkest",
+        "dark",
+        "medium"
+      ],
+      "species": [
+        "pluginList"
+      ]
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "icons/darkPlugin.png",
+      "scale": [
+        1,
+        2
+      ],
+      "theme": [
+        "lightest",
+        "light"
+      ],
+      "species": [
+        "pluginList"
+      ]
+    }
+  ]
+}

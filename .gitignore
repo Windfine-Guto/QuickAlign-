@@ -1,0 +1,4 @@
+.localization-backup/
+.localization-tests/
+ps-test-screen.png
+__pycache__/
